@@ -1,8 +1,8 @@
-## In this file are two functions which create a special object
+## This file contains two functions which create a special object
 ## that stores a matrix and caches its inverse
 
-## functions sets up a list of function to set/get/update the matrix 
-## and its inverse
+## The makeCacheMatrix function sets up a list of function 
+## to set/get/update the matrix and its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
